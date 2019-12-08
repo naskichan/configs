@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "name": "hyperocean",
+    "version": "1.1.2",
+    "main": "index.js",
+    "description": "🌊 Deep oceanic blue Hyper theme",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/klaussinani/hyperocean.git"
+    },
+    "author": {
+      "name": "Klaus Sinani",
+      "email": "klaussinani@gmail.com",
+      "url": "https://klaussinani.github.io"
+    },
+    "maintainers": [
+      {
+        "name": "Mario Sinani",
+        "email": "mariosinani@protonmail.ch",
+        "url": "https://mariocfhq.github.io"
+      }
+    ],
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "hyper",
+      "hyperterm",
+      "dark",
+      "ocean",
+      "blue",
+      "theme",
+      "syntax"
+    ],
+    "_registry": "npm",
+    "_loc": "C:\\Users\\info\\AppData\\Roaming\\Hyper\\.hyper_plugins\\cache\\v1\\npm-hyperocean-1.1.2-32a46bbb904c8cd1d4970a68a7041d3f722ed1b9\\package.json",
+    "readmeFilename": "readme.md",
+    "readme": "<h1 align=\"center\">\nHyperocean\n</h1>\n\n<h4 align=\"center\">\n🌊 Deep oceanic blue Hyper theme\n</h4>\n\n\n<div align=\"center\">\n  <img src=\"media/screen.png\" width=\"100%\" />\n</div>\n\n<p align=\"center\">\n  <a href=\"https://github.com/bnb/awesome-hyper\">\n    <img alt=\"Awesome\" src=\"https://awesome.re/mentioned-badge.svg\" />\n  </a>\n</p>\n\n## Contents\n\n- [Install](#install)\n- [Extra](#extra)\n- [Related](#related)\n- [Team](#team)\n- [License](#license)\n\n## Install\n\n### Hyper Store\n\nGet the theme on the official [Hyper Store](https://hyper.is/plugins/hyperocean).\n\n### Hyper plugin manager\n\nFirstly, ensure you have [Hyper](https://hyper.is) installed in your system. Once launched, type the following to get the theme.\n\n```bash\n$ hyper install hyperocean\n```\n\n## Extra\n\nTo get the exact same look, install the [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) font as well as [oh-my-zsh](http://ohmyz.sh/) and set up [pure](https://github.com/sindresorhus/pure) as your zsh prompt.\n\n## Related\n\n- [ocean-space](https://github.com/oscarmcm/ocean-space) - Visual Studio Code version\n- [oceandock](https://github.com/klaussinani/oceandock) - Plank dock version\n\n## Team\n\n- Klaus Sinani ([@klaussinani](https://github.com/klaussinani))\n- Mario Sinani ([@mariocfhq](https://github.com/mariocfhq))\n\n## License\n\n[MIT](license.md)\n",
+    "licenseText": "MIT License\n\nCopyright (c) Klaus Sinani <klaussinani@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyperocean/-/hyperocean-1.1.2.tgz#32a46bbb904c8cd1d4970a68a7041d3f722ed1b9",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyperocean/-/hyperocean-1.1.2.tgz",
+    "hash": "32a46bbb904c8cd1d4970a68a7041d3f722ed1b9",
+    "registry": "npm",
+    "packageName": "hyperocean"
+  },
+  "registry": "npm",
+  "hash": "32a46bbb904c8cd1d4970a68a7041d3f722ed1b9"
+}

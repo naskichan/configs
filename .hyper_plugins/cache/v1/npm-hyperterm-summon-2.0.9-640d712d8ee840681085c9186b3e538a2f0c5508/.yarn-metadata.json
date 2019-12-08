@@ -1,0 +1,68 @@
+{
+  "manifest": {
+    "name": "hyperterm-summon",
+    "version": "2.0.9",
+    "description": "Summon your Hyperterm windows with a system-wide hotkey",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Soutar/hyperterm-summon.git"
+    },
+    "scripts": {
+      "lint": "eslint '{index,{__mocks__,fixtures,modules}/**/*}.js'",
+      "precommit": "lint-staged",
+      "prettier": "prettier --write '{index,{__mocks__,fixtures,modules}/**/*}.js'",
+      "test": "jest"
+    },
+    "keywords": [
+      "hyper",
+      "hyper.app",
+      "hyper-plugin",
+      "plugin",
+      "hotkey",
+      "shortcut",
+      "global",
+      "system",
+      "focus",
+      "summon"
+    ],
+    "author": {
+      "name": "John Soutar",
+      "email": "john@soutar.me"
+    },
+    "license": "ISC",
+    "dependencies": {
+      "hyperterm-register-shortcut": "^1.3.0",
+      "lodash": "^4.17.4"
+    },
+    "devDependencies": {
+      "eslint": "^4.9.0",
+      "eslint-config-prettier": "^2.6.0",
+      "eslint-config-standard": "^10.2.1",
+      "eslint-plugin-import": "^2.7.0",
+      "eslint-plugin-node": "^5.2.0",
+      "eslint-plugin-prettier": "^2.3.1",
+      "eslint-plugin-promise": "^3.6.0",
+      "eslint-plugin-standard": "^3.0.1",
+      "husky": "^0.14.3",
+      "jest": "^20.0.4",
+      "lint-staged": "^4.2.3",
+      "prettier": "^1.7.4"
+    },
+    "_registry": "npm",
+    "_loc": "C:\\Users\\info\\AppData\\Roaming\\Hyper\\.hyper_plugins\\cache\\v1\\npm-hyperterm-summon-2.0.9-640d712d8ee840681085c9186b3e538a2f0c5508\\package.json",
+    "readmeFilename": "README.md",
+    "readme": "# hyperterm-summon\n[![Build Status](https://travis-ci.org/soutar/hyperterm-summon.svg?branch=master)](https://travis-ci.org/soutar/hyperterm-summon)\n[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)\n\nSummon your Hyper windows with a system-wide hotkey.\n\nIn a multi-window situation, hyperterm-summon will remember the last active window and restore focus to it.\n\nIf Hyper is already active when the hotkey is pressed, your terminal windows will be hidden and (on macOS only) your previously-active application will regain focus.\n\n## Installation\n1. Open your Hyper config file (i.e. `~/.hyper.js`) in your preferred text editor.\n1. Add `hyperterm-summon` to the plugins array found in the Hyper config.\n\n## Options\n| Key          | Description                                       | Default  |\n| ---          | -----------                                       | -------  |\n| `hideDock`   | Hide the Hyper icon in the dock and app switcher. | `false`  |\n| `hideOnBlur` | Hide the Hyper when window loses focus.           | `false`   |\n| `hotkey`     | Shortcut to toggle Hyper window visibility.       | `Ctrl+;` |\n\n*NOTE:* For a list of valid shortcuts, see [Electron Accelerators](https://github.com/electron/electron/blob/master/docs/api/accelerator.md).\n\n## Example Config\n```js\nmodule.exports = {\n  config: {\n    summon: {\n      hideDock: true,\n      hideOnBlur: true,\n      hotkey: 'Alt+Super+O'\n    }\n  },\n  plugins: [\n    'hyperterm-summon'\n  ]\n}\n```\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyperterm-summon/-/hyperterm-summon-2.0.9.tgz#640d712d8ee840681085c9186b3e538a2f0c5508",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyperterm-summon/-/hyperterm-summon-2.0.9.tgz",
+    "hash": "640d712d8ee840681085c9186b3e538a2f0c5508",
+    "registry": "npm",
+    "packageName": "hyperterm-summon"
+  },
+  "registry": "npm",
+  "hash": "640d712d8ee840681085c9186b3e538a2f0c5508"
+}

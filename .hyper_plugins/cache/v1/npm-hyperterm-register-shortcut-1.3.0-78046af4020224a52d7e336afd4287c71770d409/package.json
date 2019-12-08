@@ -1,0 +1,24 @@
+{
+  "name": "hyperterm-register-shortcut",
+  "version": "1.3.0",
+  "description": "Register user-configurable global shortcuts for HyperTerm which respect config changes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soutar/hyperterm-register-shortcut.git"
+  },
+  "scripts": {
+    "test": "jest **/*.test.js"
+  },
+  "keywords": [
+    "hyperterm",
+    "shortcut",
+    "hotkey",
+    "helper"
+  ],
+  "author": "John Soutar <john@soutar.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "manifest": {
+    "name": "hyper-materialshell",
+    "version": "1.6.3",
+    "description": "A material design theme for Hyper based on materialshell.",
+    "main": "index.js",
+    "xo": {
+      "esnext": true
+    },
+    "scripts": {
+      "lint": "standard",
+      "test": "npm run lint && jest && codecov"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/carloscuesta/hyper-materialshell.git"
+    },
+    "keywords": [
+      "hyper",
+      "hyperterm",
+      "theme",
+      "materialshell",
+      "material design"
+    ],
+    "author": {
+      "name": "Carlos Cuesta"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/carloscuesta/hyper-materialshell/issues"
+    },
+    "homepage": "https://github.com/carloscuesta/hyper-materialshell#readme",
+    "devDependencies": {
+      "codecov": "^3.0.0",
+      "jest": "^24.0.0",
+      "standard": "^14.1.0"
+    },
+    "jest": {
+      "coverageDirectory": "./coverage/",
+      "collectCoverage": true
+    },
+    "_registry": "npm",
+    "_loc": "C:\\Users\\info\\AppData\\Roaming\\Hyper\\.hyper_plugins\\cache\\v1\\npm-hyper-materialshell-1.6.3-4b41da85bcd88f97cf818fb3000ead8372f4bf67\\package.json",
+    "readmeFilename": "README.md",
+    "readme": "# hyper-materialshell\n\n[![Build Status](https://img.shields.io/travis/carloscuesta/hyper-materialshell.svg?style=flat-square)](https://travis-ci.org/carloscuesta/hyper-materialshell)\n[![Code Climate](https://img.shields.io/codeclimate/maintainability/carloscuesta/hyper-materialshell.svg?style=flat-square)](https://codeclimate.com/github/carloscuesta/hyper-materialshell)\n[![Codecov](https://img.shields.io/codecov/c/github/carloscuesta/hyper-materialshell.svg?style=flat-square)](https://github.com/carloscuesta/hyper-materialshell)\n[![npm downloads](https://img.shields.io/npm/dt/hyper-materialshell.svg?style=flat-square)](https://www.npmjs.com/package/hyper-materialshell)\n[![GitHub license](https://img.shields.io/github/license/carloscuesta/hyper-materialshell.svg?style=flat-square)](https://github.com/carloscuesta/hyper-materialshell/blob/master/LICENSE)\n\n![hyper](https://cloud.githubusercontent.com/assets/7629661/17600203/b890114c-6002-11e6-87ab-e07f911e4568.png)\n\n> A material design theme for [Hyper](http://hyper.is) based on [Carlos Cuesta's materialshell](https://github.com/carloscuesta/materialshell).\n\n## Install\n\n1. Open Hyper.app preferences with your editor - Tip: `CMD+,` or at `~/.hyper.js`.\n2. Add `hyper-materialshell` to your plugins list.\n3. Reload hyper - `CMD+Shift+R`.\n\n```js\nplugins: ['hyper-materialshell']\n```\n\n## Customization\n\nMaterialshell also has an Oceanic colorscheme, to use this version, edit `.hyper.js` and add this code inside of the `config: {}` object.\n\n```javascript\nmaterialshell: {\n  theme: 'oceanic'\n}\n```\n\n## FAQ\n\n**What font is that?**\n\n[Consolas](https://en.wikipedia.org/wiki/Consolas) a monospaced typeface.\n\n**How can I get the cool prompt?**\n\nThe prompt isn't part of Hyper or iTerm, it has to do with the shell. I'm using ZSH with along with [materialshell](https://github.com/carloscuesta/materialshell) take a look at the materialshell repository.\n\n## You might also like\n\n[ZSH materialshell prompt](https://github.com/carloscuesta/materialshell#shell-prompt)\n\n[iTerm materialshell](https://github.com/carloscuesta/materialshell#iterm)\n\n[Atom material syntax](https://github.com/carloscuesta/material-syntax)\n",
+    "licenseText": "The MIT License (MIT)\n\nCopyright (c) - 2016-2018 Carlos Cuesta\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/hyper-materialshell/-/hyper-materialshell-1.6.3.tgz#4b41da85bcd88f97cf818fb3000ead8372f4bf67",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/hyper-materialshell/-/hyper-materialshell-1.6.3.tgz",
+    "hash": "4b41da85bcd88f97cf818fb3000ead8372f4bf67",
+    "registry": "npm",
+    "packageName": "hyper-materialshell"
+  },
+  "registry": "npm",
+  "hash": "4b41da85bcd88f97cf818fb3000ead8372f4bf67"
+}

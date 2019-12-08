@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Users\info\AppData\Local\hyper\app-3.0.2\Hyper.exe C:\Users\info\AppData\Local\hyper\app-3.0.2\resources\bin\yarn-standalone.js install --no-emoji --no-lockfile --cache-folder C:\Users\info\AppData\Roaming\Hyper\.hyper_plugins\cache
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\info\AppData\Local\hyper\app-3.0.2\resources\bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  10.2.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "hyper-plugins",
+    "description": "Auto-generated from `~/.hyper.js`!",
+    "private": true,
+    "version": "0.0.1",
+    "repository": "zeit/hyper",
+    "license": "MIT",
+    "homepage": "https://hyper.is",
+    "dependencies": {
+      "hypertheme": "latest",
+      "hyper-one-dark-yuuki": "latest",
+      "hyperminimal": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/hyper-one-dark-yuuki: Not found
+      at Request.params.callback [as _callback] (C:\Users\info\AppData\Local\hyper\app-3.0.2\resources\bin\yarn-standalone.js:65368:18)
+      at Request.self.callback (C:\Users\info\AppData\Local\hyper\app-3.0.2\resources\bin\yarn-standalone.js:121753:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Users\info\AppData\Local\hyper\app-3.0.2\resources\bin\yarn-standalone.js:122736:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Users\info\AppData\Local\hyper\app-3.0.2\resources\bin\yarn-standalone.js:122656:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1090:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
