@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/info/.oh-my-zsh"
+export ZSH="/opt/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -72,7 +72,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -103,3 +103,8 @@ source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias l="exa -l"
 alias ll="exa -la"
 alias ls="exa"
+
+#Standard editor is vim
+
+if [[ -e /usr/bin/vim ]] ; then export EDITOR=vim; else export EDITOR=nano; fi
+
