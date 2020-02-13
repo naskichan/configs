@@ -34,4 +34,4 @@ printf "${grn}Repos cloned successfully!\n${end}"
 cp $configsDir/konno-yuuki.zsh-theme $dir/oh-my-zsh/themes/
 printf "${grn}Default Theme successfully installed\n${end}"
 
-printf "${grn}Done!!${end} Next steps:\n1.Copy the .zshrc according to your OS to ~/ (your home directory).\n2.Launch Zsh (type zsh, press ENTER)\n${blu}Thanks for installing using my install script!!${end}"
+printf "${grn}Done!!${end} Next steps:\n1.Copy the .zshrc according to your OS to ~/ (your home directory).\n2.Launch Zsh (type zsh, press ENTER)\nMaybe consider using Hyper if you use bare linux or WSL. Ask Jonas for help with that\n${blu}Thanks for installing using my install script!!${end}"
