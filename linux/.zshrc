@@ -1,7 +1,8 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+# Hint: Use the folder you provided the install script if you used it
+# When sitting next to you I already used this folder provided as default
+
 export ZSH="/opt/zsh-plugins/oh-my-zsh"
 
 source /opt/zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -9,7 +10,10 @@ source /opt/zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Custom ZSH Theme, standard is something like gentoo, mine is konno-yuuki
 # which must be imported in your oh-my-zsh/themes folder
+
 ZSH_THEME="konno-yuuki"
+
+
 
 # Uncomment for random theme on logon
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
