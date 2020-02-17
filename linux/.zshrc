@@ -1,21 +1,19 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-# Hint: Use the folder you provided the install script if you used it
-# When sitting next to you I already used this folder provided as default
+export ZSH="/home/info/zsh-plugins/oh-my-zsh"
 
-export ZSH="/opt/zsh-plugins/oh-my-zsh"
-
-source /opt/zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
-# Custom ZSH Theme, standard is something like gentoo, mine is konno-yuuki
-# which must be imported in your oh-my-zsh/themes folder
-
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="konno-yuuki"
 
-
-
-# Uncomment for random theme on logon
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
@@ -73,6 +71,8 @@ ZSH_THEME="konno-yuuki"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -103,8 +103,4 @@ source $ZSH/oh-my-zsh.sh
 alias l="exa -l"
 alias ll="exa -la"
 alias ls="exa"
-
-#Standard editor is vim
-
-if [[ -e /usr/bin/vim ]] ; then export EDITOR=vim; else export EDITOR=nano; fi
-
+alias wd="cd /mnt/c/Users/info/coco/"
