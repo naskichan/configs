@@ -103,4 +103,4 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias l="exa -l"
 alias ll="exa -la"
 alias ls="exa"
-alias wd="cd /mnt/c/Users/info/coco/"
+alias v="vim"
