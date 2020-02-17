@@ -1,0 +1,86 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{79285a8e-036c-446f-8a9c-78994e34bf78}",
+    "profiles":
+    {
+        "defaults":
+        {
+            // Put settings here that you want to apply to all profiles
+        },
+        "list":
+        [
+            {
+                "acrylicOpacity" : 1, // Use values formatted like 0.0 (the dot)
+                "background" : "#282C34",
+                "closeOnExit" : true,
+                "colorScheme" : "Hyper-One-Dark-Yuuki",
+                "commandline" : "wsl.exe",
+                "cursorColor" : "#FFFFFF",
+                "cursorHeight" : 25,
+                "cursorShape" : "filledBox", // filledBox, emptyBox, bar, underscore, vintage, default
+                "fontFace" : "Hack",
+                "fontSize" : 18,
+                "guid" : "{79285a8e-036c-446f-8a9c-78994e34bf78}",
+                "historySize" : 9001,
+                "name" : "Wsl Custom",
+                "padding" : "10, 10, 10, 10",
+                "snapOnInput" : true,
+                "startingDirectory" : "%USERPROFILE%",
+                "useAcrylic" : false // true to make use of opacity. Not yet stable (17.02.2020)
+            },
+            {
+                // Make changes here to the cmd.exe profile
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]        
+    },
+
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "name" : "Hyper-One-Dark-Yuuki",
+            "background" : "#6F9AC8",
+            "black" : "#1C2329",
+            "blue" : "#52ADF2",
+            "brightBlack" : "#555753",
+            "brightBlue" : "#52ADF2",
+            "brightCyan" : "#34E2E2",
+            "brightGreen" : "#8AE234",
+            "brightPurple" : "#AD7FA8",
+            "brightRed" : "#EF596F",
+            "brightWhite" : "#EEEEEE",
+            "brightYellow" : "#D8985F",
+            "cyan" : "#06989A",
+            "foreground" : "#EEEEEE",
+            "green" : "#8AE234",
+            "purple" : "#72557F",
+            "red" : "#EF596F",
+            "white" : "#D3D7CF",
+            "yellow" : "#D8985F"
+        }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
