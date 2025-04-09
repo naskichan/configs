@@ -1,0 +1,14 @@
+[user]
+	email = git@naski.org
+	name = Naski
+  	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDY3OPddjP6sLTrDoQzAfpIT1CJRNQ29YkmZKXz7Vk681N+Lxi4tk+enNM3A87VDn3nje+Ex0XGhZYiCuv1I5Auw7LvGU1ysdjTotYUBKMSrZPz+DkmYsxLUwFL0CR+fdCvZfrkC207dxk+Ft3N65FnOEJNzHP2Xw3NkXPmJuP/odvueBRGwYTwMojihQDq8G8/1kU5KT1nCsRFRenEWf1U07RI6U8Hks5M7IzWlG1ko7mTRFEZrTkJEcLeYwZnr0JCv1pcNf8tZLViMjykGYvRUlFFmT0JLER4/bbAg9RcqsQgveZg7eQw5MaOI5ELaleG2lgfWM7WGydC60AtZ3Tj3mhrwQhsw4M8Ct6vsCcNMHc7iVjBG2W2AXklUKcy6+/d4/O7+vmLzBO1/pFDYkZ9/glHVFXLdx4AY1pKhIWs8RyRbFOnnQXEcfGJQxoQUVVTSnGA2nTV8W/gvAOdb/YAirz2SFTRXcWZ0EQgZzlnrPQmOVt12yHkpIRUMw18Bd0=
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/mnt/c/Users/info/AppData/Local/1Password/app/8/op-ssh-sign-wsl"
+
+[commit]
+  gpgsign = true
+
